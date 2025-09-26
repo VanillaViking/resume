@@ -1,0 +1,239 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ashwin Rajesh} \\ \vspace{1pt}
+    \small +61 490718282 $|$ \href{mailto:ashwinr2k2@gmail.com}{\underline{ashwinr2k2@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ashwin-rajesh-6a4960208/}{\underline{linkedin.com/in/ashwin}} $|$
+    \href{https://github.com/VanillaViking}{\underline{github.com/VanillaViking}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Technology Sydney}{Ultimo, NSW}
+      {Bachelor of Software Engineering (Honours) 79 WAM}{Feb 2021 -- Dec 2025 (expected)}
+      \resumeItemListStart
+        \resumeItem{Recipient of Best Capstone Poster Award 2025}
+        \resumeItem{Dean's List 2024}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Full-Stack Software Developer}{Novermber 2022 -- July 2023}
+      {Gecko.rent}{Ultimo, NSW}
+      \resumeItemListStart
+        \resumeItem{Implemented inventory tracking, product addons, review systems and more using MongoDB, GraphQL \& NextJS.}
+        \resumeItem{Retained customers by decreasing load times by more than 90 seconds by using static paths and rendering.}
+        \resumeItem{Developed a cronjob-based backend service to enable auto-scheduled emails. Brought in more product reviews.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Research Assistant}{Mar. 2024 -- Present}
+      {University of Technology Sydney}{Ultimo, NSW}
+      \resumeItemListStart
+        \resumeItem{Built a research demo app (NextJS, Actix, MongoDB) with real-time charts, contour maps, and diagrams.}
+        \resumeItem{Established a robust CI pipeline and reproducible builds using Nix, saved time during cloud migration.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Casual Academic}{Feb 2025 -- Aug 2025}
+      {University of Technology Sydney}{Ultimo, NSW}
+      \resumeItemListStart
+        \resumeItem{Mentored undergraduate students about fundamental embedded programming concepts.}
+        \resumeItem{Assisted students on their practical embedded projects, giving them technical and design practice counsel.}
+        \resumeItem{Evaluated students' performance and grade them based on their technical and practical proficiency.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Software Studio Project: Pantry Pilot} $|$ \emph{Cloudflare, Tanstack, OpenCV, YOLOv11}}{Jul 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed a Rust backend for running fresh produce image detection capable of high loads.}
+            \resumeItem{Utilized multiple worker threads with multiple NN models. Implemented round-robin scheduling to assign requests}
+            \resumeItem{Implemented object counting by combining OpenCV-style filters and algorithms with custom area processing.}
+            \resumeItem{Reduced round-trip request time by 29\% compared to a single shared-model architecture.}
+            \resumeItem{Created a camera component from scratch in React capable of uploading screenshots to the backend.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{PasteBuff} $|$ \emph{Rust, Tokio, Lua, Nix, Docker}}{Aug 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Architected and developed a self-hostable service to store and retrieve clipboards using Tokio asynchronous Rust.}
+            \resumeItem{Developed a custom LRU cache with space-optimized storage of clipboard content.}
+            \resumeItem{Currently integrating into Neovim as a plugin using Lua, along with from-scratch TCP socket handling.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Zyenyo Typing Test Bot} $|$ \emph{Java, Rust, NextJS, MongoDB, Docker}}{June 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed an application using Java to serve typing tests in Discord. Currently used in multiple large servers.}
+            \resumeItem{Used MongoDB aggregation functions to perform statistical analysis on collected typing data.}
+            \resumeItem{Helped create a performance rating algorithm, associating users' WPM, accuracy and prompt difficulty.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Open Source Contributions} $|$ \emph{Polybar, Gromit-MPX, React-Native-Dates, ClubVotingSystem, FuzzJudge, scrot}}{}
+    \resumeSubHeadingListEnd
+
+%-----------EXTRA CURR---------
+
+\section{Extra Curricular}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {UTS Programming Society Executive}{October 2024 -- Present}
+      {University of Technology Sydney}{Ultimo, NSW}
+      \resumeItemListStart
+        \resumeItem{Hosted Workshops such as Intro to programming, Vim Motions, Embedded Systems developement etc. }
+        \resumeItem{Helped organise a programming competition. Designed and tested competition questions to challenge participants.}
+        \resumeItem{Contributed to community projects such as the club voting system and competition judging system.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Rust, Typescript, C++, C, C\#, Java, Python, Bash} \\
+     \textbf{Frameworks}{: NextJS, GraphQL, MongoDB, Postgres, Nginx, esp-idf, Arduino, AVR, SQLite} \\
+     \textbf{Developer Tools}{: Git, Docker, Vim, Nix, Jira, Latex} \\
+     \textbf{Libraries}{: tokio, serde, yolov11, onnx-runtime, opencv, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
