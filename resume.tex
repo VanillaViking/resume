@@ -36,6 +36,7 @@
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
+\fancyfoot[L]{\emph{Referees available on request}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -123,8 +124,8 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Technology Sydney}{Ultimo, NSW}
-      {Bachelor of Software Engineering (Honours) 79 WAM}{Feb 2021 -- Dec 2025 (expected)}
+      {University of Technology Sydney}{Feb 2021 -- Dec 2025}
+      {Bachelor of Software Engineering (Honours) 79 WAM}{Ultimo, NSW}
       \resumeItemListStart
         \resumeItem{Recipient of Best Capstone Poster Award 2025}
         \resumeItem{Dean's List 2024}
@@ -136,14 +137,13 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Full-Stack Software Developer}{November 2022 -- July 2023}
+      {Full-Stack Software Developer}{Nov 2022 -- Jul 2023}
       {Gecko.rent}{Ultimo, NSW}
       \resumeItemListStart
-        \resumeItem{Implemented inventory tracking, product addons, review systems and more using MongoDB, GraphQL \& NextJS.}
-        \resumeItem{Retained customers by decreasing load times by more than 90 seconds by using static paths and rendering.}
-        \resumeItem{Developed a cronjob-based backend service to enable auto-scheduled emails. Brought in more product reviews.}
+        \resumeItem{Implemented inventory tracking, product addons, review systems and more with MongoDB, GraphQL \& NextJS.}
+        \resumeItem{Retained customers by decreasing load times by \textbf{more than 90 seconds} by using static paths and rendering.}
+        \resumeItem{Developed a Cronjob based backend service to enable auto-scheduled emails. Brought in more product reviews.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -157,11 +157,11 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Research Assistant}{Mar. 2024 -- Present}
+      {Research Assistant}{Mar 2024 -- Present}
       {University of Technology Sydney}{Ultimo, NSW}
       \resumeItemListStart
         \resumeItem{Built a research demo app (NextJS, Actix, MongoDB) with real-time charts, contour maps, and diagrams.}
-        \resumeItem{Established a robust CI pipeline and reproducible builds using Nix, saved time during cloud migration.}
+        \resumeItem{Established reproducible builds and caching through a Nix CI. \textbf{saved up to 10 minutes} on Rust builds.}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -169,10 +169,9 @@
       {University of Technology Sydney}{Ultimo, NSW}
       \resumeItemListStart
         \resumeItem{Mentored undergraduate students about fundamental embedded programming concepts.}
-        \resumeItem{Assisted students on their practical embedded projects, giving them technical and design practice counsel.}
-        \resumeItem{Evaluated students' performance and grade them based on their technical and practical proficiency.}
+        \resumeItem{Assisted students on practical projects, providing technical and design practice counsel.}
+        \resumeItem{\textbf{Evaluated 160 students' performance} based on technical and practical proficiency.}
       \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 
@@ -182,25 +181,24 @@
       \resumeProjectHeading
           {\textbf{Software Studio Project: Pantry Pilot} $|$ \emph{Cloudflare, Tanstack, OpenCV, YOLOv11}}{Jul 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Designed a Rust backend for running fresh produce image detection capable of high loads.}
-            \resumeItem{Utilized multiple worker threads with multiple NN models. Implemented round-robin scheduling to assign requests}
-            \resumeItem{Implemented object counting by combining OpenCV-style filters and algorithms with custom area processing.}
-            \resumeItem{Reduced round-trip request time by 29\% compared to a single shared-model architecture.}
-            \resumeItem{Created a camera component from scratch in React capable of uploading screenshots to the backend.}
+            \resumeItem{Took initiative to build a Rust backend for running fresh produce image detection capable of high loads.}
+            \resumeItem{Utilized worker threads with multiple NN models. Implemented round-robin scheduling to assign requests.}
+            \resumeItem{Integrated object counting by combining OpenCV-style filters and algorithms with custom area processing.}
+            \resumeItem{\textbf{Reduced round-trip request time by 29\%} compared to a single shared-model architecture.}
+            % \resumeItem{Created a camera component from scratch in React capable of uploading screenshots to the backend.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{PasteBuff} $|$ \emph{Rust, Tokio, Lua, Nix, Docker}}{Aug 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Architected and developed a self-hostable service to store and retrieve clipboards using Tokio asynchronous Rust.}
-            \resumeItem{Developed a custom LRU cache with space-optimized storage of clipboard content.}
-            \resumeItem{Currently integrating into Neovim as a plugin using Lua, along with from-scratch TCP socket handling.}
+            \resumeItem{Architected a self hostable service to store and retrieve clipboards written in Tokio asynchronous Rust.}
+            \resumeItem{Designed a custom LRU cache \textbf{with O(1) lookup} and space-optimized storage of clipboard content.}
+            \resumeItem{Currently integrating into Neovim as a Lua plugin, along with from-scratch TCP socket handling.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Zyenyo Typing Test Bot} $|$ \emph{Java, Rust, NextJS, MongoDB, Docker}}{June 2020 -- Present}
+          {\textbf{Zyenyo Typing Test Bot} $|$ \emph{Java, Rust, NextJS, MongoDB, Docker}}{Jun 2020 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed an application using Java to serve typing tests in Discord. Currently used in multiple large servers.}
+            \resumeItem{Created a Java application which \textbf{served over 11,000 typing tests} in multiple large chatrooms.}
             \resumeItem{Used MongoDB aggregation functions to perform statistical analysis on collected typing data.}
-            \resumeItem{Helped create a performance rating algorithm, associating users' WPM, accuracy and prompt difficulty.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{Open Source Contributions} $|$ \emph{Polybar, Gromit-MPX, React-Native-Dates, ClubVotingSystem, FuzzJudge, scrot}}{}
@@ -211,16 +209,15 @@
 \section{Extra Curricular}
     \resumeSubHeadingListStart
     \resumeSubheading
-      {UTS Programming Society Executive}{October 2024 -- Present}
+      {UTS Programming Society Executive}{Oct 2024 -- Present}
       {University of Technology Sydney}{Ultimo, NSW}
       \resumeItemListStart
-        \resumeItem{Hosted Workshops such as Intro to programming, Vim Motions, Embedded Systems developement etc. }
-        \resumeItem{Helped organise a programming competition. Designed and tested competition questions to challenge participants.}
+        \resumeItem{Hosted workshops such as Intro to programming, Vim Motions, Embedded Systems etc.}
+        \resumeItem{Helped organise a programming competition. Planned and tested competition questions to challenge participants.}
         \resumeItem{Contributed to community projects such as the club voting system and competition judging system.}
+        \resumeItem{Delivered training on ProgSoc’s processes to incoming executives.}
       \resumeItemListEnd
     \resumeSubHeadingListEnd
-
-
 
 %
 %-----------PROGRAMMING SKILLS-----------
@@ -233,7 +230,6 @@
      \textbf{Libraries}{: tokio, serde, yolov11, onnx-runtime, opencv, libuv, numpy, matplotlib, twilio, react-hook-form}
     }}
  \end{itemize}
-
 
 %-------------------------------------------
 \end{document}
